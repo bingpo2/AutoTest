@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.course.module">
+    <select id="loginCase" parameterType="Integer" resultType="com.course.module.LoginCase">
+        select * from loginCase
+        where id=#{id}
+    </select>
+</mapper>

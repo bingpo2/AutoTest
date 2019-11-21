@@ -1,0 +1,24 @@
+[
+  {
+    "description": "这是一个无惨的get请求",
+    "request": {
+      "uri": "/demoget",
+      "method": "get"
+    },
+    "response": {
+      "text": "没有参数的get请求 "
+    }
+  },{
+  "description": "",
+  "request": {
+    "uri": "/getwithparam",
+    "queries": {
+      "name": "zhangsan",
+      "age": "18"
+    }
+  },
+  "response": {
+    "text": "get 带参 返回的结果  姓名  和年龄"
+  }
+}
+]
